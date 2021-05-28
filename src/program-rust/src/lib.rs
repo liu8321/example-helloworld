@@ -37,4 +37,4 @@ fn process_instruction(
   LittleEndian::write_u32(&mut data[0..], num_greets);
   msg!("Hello!");
   Ok(())
-)
+}
